@@ -126,7 +126,7 @@ Verify the Dim and Fact tables.
 ## 📝 Medium Article
 A full walkthrough of the project — including design decisions, Fabric limitations, and step‑by‑step explanations — is available here:
 
-[Add your Medium link here]
+https://medium.com/@olayinkaogunneye/building-a-beginner-friendly-data-warehouse-in-microsoft-fabric-4a36074bcf54?postPublishedType=repub
 
 ✨ Future Enhancements
 Add DimProduct and DimDate
