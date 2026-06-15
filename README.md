@@ -22,7 +22,7 @@ It’s intentionally simple, beginner‑friendly, and easy to reproduce — perf
 
 The warehouse follows a classic layered design:
 
-```text
+```
 Raw → Staging → Dimension → Fact → Power BI
 ```
 
@@ -46,13 +46,14 @@ FactSales (linked by CustomerKey)
 This keeps the model easy to understand while still demonstrating dimensional modeling concepts.
 
 ⚙️ Metadata‑Driven ETL
+
 The ETL is controlled by a small metadata table called LoadControl, which defines:
 
-which steps should run
+- which steps should run
 
-in what order
+- in what order
 
-whether they are active
+- whether they are active
 
 This allows the pipeline to loop through ETL steps dynamically instead of hard‑coding each stored procedure.
 
@@ -68,13 +69,13 @@ VALUES
 ## 🚀 Pipeline Automation
 A Fabric Pipeline orchestrates the ETL:
 
-runs the ETL wrapper stored procedure
+- runs the ETL wrapper stored procedure
 
-follows the LoadControl order
+- follows the LoadControl order
 
-logs success/failure
+- logs success/failure
 
-can be scheduled or triggered manually
+- can be scheduled or triggered manually
 
 📸 Suggested screenshots:
 
