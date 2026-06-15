@@ -85,7 +85,7 @@ Stored Procedure activity
 Successful run
 
 ## 📁 Repository Structure
-text
+```
 fabric-datawarehouse-project/
 │
 ├── sql/
@@ -109,7 +109,7 @@ fabric-datawarehouse-project/
 │
 └── README.md
 This structure keeps the project clean, reproducible, and easy to navigate.
-
+```
 ## 📦 How to Run the Project
 Create the tables in your Fabric Warehouse.
 
